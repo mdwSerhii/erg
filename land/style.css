@@ -1,0 +1,24 @@
+@media (max-width: 818px) {
+  .start-page.start-page_has_bg .start-page__bg {
+    height: 100vh !important;
+    flex: none;
+  }
+  .start-page__header {
+    color: #00aff0;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: "Circular Std", sans-serif;
+  }
+  .start-page__content {
+    position: absolute;
+    top: 36px;
+    left: 24px;
+    background: none;
+  }
+}
+@media (max-width: 767px) {
+  .start-page .start-page__button {
+    max-width: 50%;
+    min-width: 128px;
+  }
+}
